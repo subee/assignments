@@ -1,30 +1,45 @@
 body {
-    background-color: #c8deec;
+    background-color: #d8e4f0;
     font-family: "Helvetica";
+    margin: 0;
 }
 
 h1 {
-    font-family: "Courier New";
+    font-family: "Montserrat";
+    font-weight: 600; 
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+    text-align: center;
+
 }
 
 h2 {
-    font-family: "Courier New";
-    font-style: italic;
-    font-size: 17px;
-    color: #887;
-}
-
-h3 {
-    font-family: "Century Gothic";
     color: #6097b4;
 }
 
 .feature-img {
-    border: 5px solid black;
-    width: 395px; 
+    width: 100%;
+    border-bottom: 5px solid #000;
+    padding-bottom: 2.7em; 
     /* border-size: 1px;
     border-style: solid;
     border-color: black; */
+}
+
+.ingredients {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 30%;
+    background: white;
+    padding: 3%;
+    border-bottom: 5px solid black;
+}
+
+.recipe {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
 }
 
 a {
